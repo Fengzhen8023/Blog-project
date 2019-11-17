@@ -854,8 +854,15 @@ pre {
 }
 .prev-next-wrap .pre-post {
   float: left;
+  width: 49%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 1rem;
 }
 .prev-next-wrap .next-post {
+  width: 49%;
+  overflow: hidden;
+  text-overflow: ellipsis;
   float: right;
 }
 .sidebar .widget {
