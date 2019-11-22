@@ -86,7 +86,7 @@ body {
 现在我们已经将 **.css** 文件和 **.less** 文件引入到项目中，但是这个时候，如果我们启动本地开发服务器或者打包编译项目，肯定会报错。
 
 
-![](https://upload-images.jianshu.io/upload_images/3879603-89167386d9e93452.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://q1d2135zd.bkt.clouddn.com//webpack-05-01.png)
 
 
 这是因为我们还没有进行相关的配置，webpack还不知道如何处理这些引入的文件。所及接下来要说的就是如何进行配置，使得webpack可以进行打包编译样式文件。

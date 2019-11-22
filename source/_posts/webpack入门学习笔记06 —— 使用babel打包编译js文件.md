@@ -110,7 +110,7 @@ let a = new A();
 
 这个时候再进行打包编译的时候，会报错以下错误：根据提示，是因为我们没有安装所需要的依赖包。
 
-![](https://upload-images.jianshu.io/upload_images/3879603-3e76b7f7c1b86af2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://q1d2135zd.bkt.clouddn.com//webpack-06-01.png)
 
 
 道理很简单，仅靠上面书写的 **babel** 配置，只能转换 **ES6** 语法，如果要转换更高版本的语法，就要进行其他配置，比如这里转换 **ES7** 语法。
@@ -159,7 +159,7 @@ yarn add @babel/plugin-proposal-class-properties -D
 
 我们知道，手机上安装的 **中英词典APP** 可以帮助我们将不认识的英文翻译成我们熟知的汉语，这样我们就可以理解单词和句子表达的意义了。类似，**babel** 可以将我们写的 **ES6** 语法翻译成浏览器熟悉的 **ES5** 语法，这样，浏览器就可以知道这些 **JS** 代码要做什么事情了。比如下面的例子：
 
-![](https://upload-images.jianshu.io/upload_images/3879603-de737cc2caf2fbfb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://q1d2135zd.bkt.clouddn.com//webpack-06-02.png)
 
 
 **中英词典APP** 在我们安装之初，就可以将英文成中文，是因为开发程序员在这个APP中预先设置了中英翻译功能。同理，**babel** 在配置之初就可以将 **ES6** 语法翻译成 **ES5** 语法，是因为我们在配置之初，给 **babel** 指定了 **预设（presets）** ，才使得 **babel** 可以做到这一点。
@@ -170,7 +170,7 @@ yarn add @babel/plugin-proposal-class-properties -D
 
 通过babel的中文官网，我们可以看到对于不同版本的语法，有不同的插件。相当于在 **中英词典APP** 中，对于不同的语言，有不同的扩展包，需要什么扩展包，我们下载即可。
 
-![](https://upload-images.jianshu.io/upload_images/3879603-00af69fbc21c64f8.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://q1d2135zd.bkt.clouddn.com//webpack-06-03.png)
 
 
 根据个人的经验，在使用这些插件的时候，项目开发之初不用配置。在打包编译的时候，如果报错了，再根据报错信息，查看缺少什么插件，然后再进行配置即可。当然，如果你经验很丰富，一开始就知道要使用那些插件，那么肯定要提前配置，

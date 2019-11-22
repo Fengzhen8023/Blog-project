@@ -16,11 +16,11 @@ Webpack作为一个功能强大的构建工具，能够对我们书写的代码�
 
 Webpack在工作的过程中，会对代码进行打包编译，这就会带来一个问题：如果项目中代码错误，浏览器中的报错提示，定位到的是打包编译后的代码，而不是我们在项目中实际书写的代码，比如以下报错：
 
-![](https://upload-images.jianshu.io/upload_images/3879603-8322f50a0db790a0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://q1d2135zd.bkt.clouddn.com//webpack-14-01.png)
 
 对于这种报错，如果是简单的项目还好。但是如果项目稍微复杂一点，开发人员进行调试程序，会变得非常困难。开发人员所期望看到的报错信息是这样的：
 
-![](https://upload-images.jianshu.io/upload_images/3879603-93969676ec8b6692.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://q1d2135zd.bkt.clouddn.com//webpack-14-02.png)
 
 如果是这样的报错信息，那么我们就可以快速定位到错误代码的位置，从而快速修复。想要达到这个目的，我们需要这么做呢？这篇博客就和大家分享一下这方面的知识，即webpack中的 **源码映射**。
 

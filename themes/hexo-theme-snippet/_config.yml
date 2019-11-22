@@ -124,7 +124,7 @@ branding:
 
 ## 设置banner背景图片
 banner:
-    img: http://snippet.shenliyang.com/img/banner.jpg
+    img: 
 
 ## 首页列表底部面板
 homePanel: true

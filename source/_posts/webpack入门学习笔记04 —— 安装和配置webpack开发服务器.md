@@ -50,7 +50,7 @@ yarn add webpack-dev-server -D
 
 启动本地服务器之后，我们便可以在浏览器中通过 **http://localhost:8080**  来访问项目了。截图如下：
 
-![](https://upload-images.jianshu.io/upload_images/3879603-eefd97df530b2126.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://q1d2135zd.bkt.clouddn.com//webpack-04-01.png)
 
 
 ## 3. 初步配置webpack的开发服务器

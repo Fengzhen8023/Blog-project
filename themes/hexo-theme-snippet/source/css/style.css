@@ -241,7 +241,9 @@ pre {
   line-height: 0;
   height: 180px;
   width: 100%;
-  background: #fff url(http://7xpw2b.com1.z0.glb.clouddn.com/hexo-sinppet/img/banner.jpg);
+  background: #fff url(http://q1d2135zd.bkt.clouddn.com//banner.png);
+  background-size: 100% auto;
+  background-position-y: 30%;
   background-repeat: repeat;
   overflow: hidden;
 }

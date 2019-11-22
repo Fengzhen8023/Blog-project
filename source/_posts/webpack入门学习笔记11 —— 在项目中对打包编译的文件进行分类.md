@@ -15,13 +15,13 @@ date: 2019-7-28 00:00:00
 在前面的博客中，我们对Webpack项目进行了很多配置，也多次打包编译了项目。如果你细心观察的话，你会看到，项打包编译后的目代码,全部都放在了 **build** 文件夹下，没有根据文件格式的不同再次进行分类。
 
 
-![](https://upload-images.jianshu.io/upload_images/3879603-fd992c1d60ffef5b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://q1d2135zd.bkt.clouddn.com//webpack-11-01.png)
 
 
 但是我们所期望的场景是：项目打包编译之后，对文件进行分类，不同的文件放在不同的文件夹下。比如打包编译后，图片全部都放在 **build/images** 文件夹下，样式文件全部放在 **build/css** 文件夹下，这样便于管理项目。如下图所示：
 
 
-![](https://upload-images.jianshu.io/upload_images/3879603-eb02ee86243c802e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://q1d2135zd.bkt.clouddn.com//webpack-11-02.png)
 
 
 那么需要如何配置，才能达到这个目的呢？在这篇博客中，我会跟大家分享。
