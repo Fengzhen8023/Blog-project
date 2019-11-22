@@ -90,5 +90,5 @@ theme: hexo-theme-snippet
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: 
-  branch: 
+  repo: https://github.com/Fengzhen8023/fengzhen8023.github.io.git
+  branch: master
