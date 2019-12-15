@@ -1,7 +1,7 @@
 <div class="post-meta">
     <% if(!is_category()){ %>
     <span class="categories-meta fa-wrap">
-        <i class="fa fa-folder-open-o"></i>
+        <i class="iconfont icon-wulumuqishigongandashujuguanlipingtai-ico-"></i>
         <%- list_categories(post.categories, {
                 show_count: false,
                 style: 'none',
@@ -11,7 +11,7 @@
     <% } %>
     <% if(!is_tag()){ %>
     <span class="fa-wrap">
-        <i class="fa fa-tags"></i>
+        <i class="iconfont icon-biaoqian"></i>
         <span class="tags-meta">
             <% if (post.tags && post.tags.length){ %>
             <%- list_tags(post.tags, {
@@ -30,7 +30,7 @@
             if (is_archive()) format = "MM/DD";
         %>
     <span class="fa-wrap">
-        <i class="fa fa-clock-o"></i>
+        <i class="iconfont icon-date"></i>
         <span class="date-meta">
             <%- date(post.date, format) %></span>
     </span>

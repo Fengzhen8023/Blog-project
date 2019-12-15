@@ -1,30 +1,65 @@
 {
-  "id": "1478217",
-  "name": "Blog",
+  "id": "1564129",
+  "name": "my-blog",
   "font_family": "iconfont",
   "css_prefix_text": "icon-",
   "description": "",
   "glyphs": [
     {
-      "icon_id": "635081",
-      "name": "github",
-      "font_class": "github",
-      "unicode": "e618",
-      "unicode_decimal": 58904
-    },
-    {
-      "icon_id": "1996976",
-      "name": "掘金",
-      "font_class": "juejin",
+      "icon_id": "88062",
+      "name": "left",
+      "font_class": "left",
       "unicode": "e600",
       "unicode_decimal": 58880
     },
     {
-      "icon_id": "6914956",
+      "icon_id": "88077",
+      "name": "right",
+      "font_class": "right",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "387298",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "eac0",
+      "unicode_decimal": 60096
+    },
+    {
+      "icon_id": "4398433",
+      "name": "标签",
+      "font_class": "biaoqian",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "5829507",
+      "name": "数据目录",
+      "font_class": "wulumuqishigongandashujuguanlipingtai-ico-",
+      "unicode": "e7eb",
+      "unicode_decimal": 59371
+    },
+    {
+      "icon_id": "7381752",
+      "name": "top",
+      "font_class": "top",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "8279262",
+      "name": "掘金",
+      "font_class": "juejin",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "9383916",
       "name": "csdn",
-      "font_class": "csdn",
-      "unicode": "e6d7",
-      "unicode_decimal": 59095
+      "font_class": "CN_csdnnet",
+      "unicode": "e601",
+      "unicode_decimal": 58881
     },
     {
       "icon_id": "9392382",
@@ -32,6 +67,13 @@
       "font_class": "jianshu",
       "unicode": "e787",
       "unicode_decimal": 59271
+    },
+    {
+      "icon_id": "10245292",
+      "name": "date",
+      "font_class": "date",
+      "unicode": "e66e",
+      "unicode_decimal": 58990
     }
   ]
 }

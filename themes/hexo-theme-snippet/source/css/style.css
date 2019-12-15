@@ -783,6 +783,7 @@ pre {
   width: 36px;
   height: 36px;
   line-height: 36px;
+  display: inline-block;
 }
 .pagination .prev {
   margin: 0 5px;
@@ -948,7 +949,7 @@ pre {
   text-align: center;
   width: 40px;
   height: 40px;
-  line-height: 45px;
+  line-height: 42px;
   color: #fff;
   background: #808080;
   -webkit-border-radius: 3px;
@@ -1135,6 +1136,7 @@ pre {
 ====================================================*/
 #back-to-top,
 #toc-btn {
+  width: 30px;
   position: fixed;
   right: 30px;
   bottom: 30px;
@@ -1152,6 +1154,7 @@ pre {
   background: #e67e22;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
+  text-decoration: none;
 }
 #back-to-top i,
 #toc-btn i {
@@ -1614,4 +1617,9 @@ pre .javascript .function {
     content: "";
     margin-bottom: 10px;
   }
+}
+
+.iconfont.icon-biaoqian {
+  position: relative;
+  top: 2px;
 }

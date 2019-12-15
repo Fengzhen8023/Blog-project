@@ -8,8 +8,8 @@ menu:
 - page: home
   url: /
   icon:
-- page: Vue
-  url: /categories/Vue/
+- page: React
+  url: /categories/React/
   icon:
 - page: Webpack
   url: /categories/Webpack/
@@ -70,16 +70,16 @@ notification: |-
 ## 社交设置
 social:
  - name: Github
-   icon: xe618;
+   icon: xeac0;
    href: https://github.com/Fengzhen8023
  - name: 简书
    icon: xe787;
    href: https://www.jianshu.com/u/231315b8e406
  - name: CSDN
-   icon: xe6d7;
+   icon: xe601;
    href: https://blog.csdn.net/fengzhen8023
  - name: 掘金
-   icon: xe600;
+   icon: xe610;
    href: https://juejin.im/user/5c7a97d56fb9a049d132da41
 #  - name: QQ群
 #    icon: users
